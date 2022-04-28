@@ -233,7 +233,34 @@ form{
     align-items: center;
     justify-content: center;
 }
+.footer svg{
+    width: 100px;
+    height: 100px;
+}
+.scroll-top{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(72, 22, 133,0.4);
+    position: fixed;
+    bottom: 10px ;
+    right: 8px;
+    transform: scale(0.5);
+    transition: 0.4s ease-in-out;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.scroll-top:hover{
+    transform: scale(0.6);
+}
+.scroll-top svg{
+    width: 80%;
+    height: 80%;
+    color: black;
+   
+    pointer-events: none;
 
+}
 @media  (max-width:800px) {
     .nav-links {
         position: fixed;
