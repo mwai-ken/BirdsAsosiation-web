@@ -187,6 +187,7 @@ header{
     font-size: 40px;
     text-transform: capitalize;
     text-shadow: 0 10px 10px rgb(50, 85, 201);
+    
 }
 .contact{
     width: 100vw;
@@ -263,31 +264,11 @@ form{
     flex-direction: column;
     overflow: scroll;
 }
-}
-
-
-@media  (max-width:500){
-    
-    .row{
-        display: flex;
-        flex-direction: column;
-        overflow: scroll;
-    }
-.contact-details p{
-     margin: 25px;
-}
-.contact-form h3{
-    position: absolute;
-    top: 0;
-    text-transform: capitalize;
-    font-size: 20px;
-
-}
 form{
 
     display: flex;
     flex-direction: column;
-    width: 65vw;
+    width: 70vw;
     height: 40vh;
     background: lightblue;
     border: 2px solid blue;
@@ -295,3 +276,4 @@ form{
     box-shadow: 20px 20px 10px rgb(193, 193, 212);
 }
 }
+
