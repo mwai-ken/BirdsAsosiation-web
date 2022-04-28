@@ -232,7 +232,7 @@ form{
     align-items: center;
     justify-content: center;
 }
-/*
+
 @media  (max-width:800px) {
     .nav-links {
         position: fixed;
@@ -264,33 +264,10 @@ form{
     overflow: scroll;
 }
 }
-*/
 
-@media  screen{
-    .nav-links {
-        position: fixed;
-        inset: 0 0 0 30%;
-        background: rgb(18, 19, 19);
-        display: flex;
-        flex-direction: column;
-        padding: min(30vh,10rem) 20px ;
-         z-index: 10;
-        transform: translateX(100%);
-        transition: 0.3s ease-in;
-    }
-   .nav-links li{
-       padding: 20px;
-   }
-   .menu-btn{
-       position: fixed;
-       display: block;
-       right: 10%;
-       z-index: 15;
-       font-weight: 800;
-   }
-   .nav-links.active{
-    transform: translateX(0%);
-}
+
+@media  (max-width:500){
+    
     .row{
         display: flex;
         flex-direction: column;
